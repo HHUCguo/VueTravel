@@ -1,4 +1,3 @@
-'use strict'
 // Template version: 1.2.4
 // see http://vuejs-templates.github.io/webpack for documentation.
 
@@ -9,7 +8,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '/vue',
     proxyTable: {},
 
     // Various Dev Server settings

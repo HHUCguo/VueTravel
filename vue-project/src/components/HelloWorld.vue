@@ -16,6 +16,7 @@
       <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
+      <li><button @click="test">获取</button></li>
     </ul>
   </div>
 </template>
@@ -26,6 +27,11 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods:{
+    test(){
+      console.log(this.api.apiNav)
     }
   }
 }
